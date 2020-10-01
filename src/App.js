@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import YouTubeVideo from "./components/YouTubeVideo";
 
 export default function App() {
 	return (
@@ -21,14 +22,7 @@ export default function App() {
 				normandie everyone loves feta melted cheese cheesy feet macaroni cheese
 				taleggio fromage frais. Smelly cheese swiss.
 			</p>
-			<iframe
-				width="560"
-				height="315"
-				src="https://www.youtube-nocookie.com/embed/CWzrABouyeE"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen
-			></iframe>
+			<YouTubeVideo youTubeId="CWzrABouyeE" />
 		</div>
 	);
 }
