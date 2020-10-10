@@ -4,6 +4,7 @@ function YouTubeVideo({ youTubeId, width = 560, height = 315 }) {
 	return (
 		<iframe
 			title={`YouTube Video ${youTubeId}`}
+			style={{ display: "block" }}
 			width={width}
 			height={height}
 			src={`https://www.youtube-nocookie.com/embed/${youTubeId}`}
