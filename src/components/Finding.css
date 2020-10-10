@@ -1,0 +1,14 @@
+.container {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.finder,
+.title {
+	font-family: "Gochi Hand", cursive;
+	font-size: 2.1rem;
+	padding: 5px;
+}
