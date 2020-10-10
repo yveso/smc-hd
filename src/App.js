@@ -46,7 +46,7 @@ export default function App() {
 			</p>
 			<p>Bis es soweit ist, hier ein paar Beispiele zur Inspiration:</p>
 			{samples.map((sample) => (
-				<Finding {...sample} />
+				<Finding {...sample} key={sample.youTubeId} />
 			))}
 		</div>
 	);
