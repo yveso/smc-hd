@@ -1,4 +1,36 @@
+html {
+	background-color: #45147f;
+	background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='%2331006b' fill-opacity='0.35' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
 .App {
-	font-family: sans-serif;
 	text-align: center;
+	color: ghostwhite;
+	padding: 10px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	display: block;
+	margin: 10px;
+
+	color: ghostwhite;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	margin: 10px;
+	padding: 10px;
+	max-width: 800px;
+}
+
+h1,
+a {
+	font-family: "Gochi Hand", cursive;
+	font-size: 3.3rem;
+	margin: 15px;
 }

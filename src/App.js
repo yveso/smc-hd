@@ -5,24 +5,36 @@ import YouTubeVideo from "./components/YouTubeVideo";
 export default function App() {
 	return (
 		<div className="App">
-			<h1>SMC HD</h1>
+			<h1>Return to Schwimmbad Musik Club</h1>
+
 			<p>
-				Cheese and biscuits cheese and wine blue castello. Pepper jack
-				port-salut st. agur blue cheese macaroni cheese boursin jarlsberg
-				camembert de normandie the big cheese. Airedale bavarian bergkase
-				taleggio pepper jack caerphilly jarlsberg bocconcini port-salut.
-				Bavarian bergkase fromage squirty cheese fromage frais bavarian bergkase
-				boursin.
-			</p>
-			<p>
-				Pecorino lancashire caerphilly. Melted cheese paneer when the cheese
-				comes out everybody's happy everyone loves st. agur blue cheese fromage
-				frais cheese strings roquefort. Squirty cheese emmental fromage frais
-				everyone loves swiss hard cheese mascarpone cut the cheese. Camembert de
-				normandie everyone loves feta melted cheese cheesy feet macaroni cheese
-				taleggio fromage frais. Smelly cheese swiss.
+				Du kennst das auch. Du hörst (zufällig) ein (älteres) Lied und bemerkst,
+				dass dieses Lied früher immer im Schwimmbad Musik Club lief. Und du
+				denkst zurück, an eine vergangene, irgendwie unbeschwertere Zeit und
+				plötzlich hast du irgendwie gute Laune.{" "}
+				<span role="img" aria-label="lachender Smiley">
+					😀
+				</span>
 			</p>
 			<YouTubeVideo youTubeId="CWzrABouyeE" />
+			<p>
+				Da wir momentan alle gute Laune gut gebrauchen können, sollten wir diese
+				Lieder sammeln und diese miteinander teilen.
+			</p>
+			<p>
+				Wenn dir ein solches Lied einfällt, dann kannst du es sehr, sehr gerne
+				<a href="https://docs.google.com/forms/d/e/1FAIpQLSe56oikB62FMbvwxE7Mth9E2Fl-oH0LJaS50hRk8INkrk5GpA/viewform?usp=sf_link">
+					➡ in diesem Formular ⬅
+				</a>
+				eintragen.
+			</p>
+			<p>
+				Sobald es genug Ergebnisse gibt, werden sie hier veröffentlicht. Es
+				lohnt sich also, diese Seite in die Bookmarks aufzunehmen.{" "}
+				<span role="img" aria-label="Zwinkersmiley">
+					😉
+				</span>
+			</p>
 		</div>
 	);
 }
