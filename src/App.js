@@ -16,6 +16,7 @@ export default function App() {
 		<div className="App">
 			<h1>Return to Schwimmbad Musik Club</h1>
 
+			<YouTubeVideo youTubeId="CWzrABouyeE" />
 			<p>
 				Du kennst das auch. Du hörst (zufällig) ein (älteres) Lied und bemerkst,
 				dass dieses Lied früher immer im Schwimmbad Musik Club lief. Und du
@@ -24,30 +25,36 @@ export default function App() {
 				<span role="img" aria-label="lachender Smiley">
 					😀
 				</span>
-			</p>
-			<YouTubeVideo youTubeId="CWzrABouyeE" />
-			<p>
+				<br />
+				<br />
 				Da wir momentan alle gute Laune gut gebrauchen können, sollten wir diese
 				Lieder sammeln und diese miteinander teilen.
 			</p>
 			<p>
-				Wenn dir ein solches Lied einfällt, dann kannst du es sehr, sehr gerne
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLSe56oikB62FMbvwxE7Mth9E2Fl-oH0LJaS50hRk8INkrk5GpA/viewform?usp=sf_link">
+				Wenn dir ein solches Lied einfällt, dann kannst du es sehr gerne
+				<a
+					target="_blank"
+					rel="noopener noreferrer"
+					href="https://docs.google.com/forms/d/e/1FAIpQLSe56oikB62FMbvwxE7Mth9E2Fl-oH0LJaS50hRk8INkrk5GpA/viewform?usp=sf_link"
+				>
 					➡ in diesem Formular ⬅
 				</a>
 				eintragen.
 			</p>
 			<p>
-				Sobald es genug Ergebnisse gibt, werden sie hier veröffentlicht. Es
-				lohnt sich also, diese Seite in die Bookmarks aufzunehmen.{" "}
+				Sobald Ergebnisse in größerer Menge vorliegen, werden sie hier
+				veröffentlicht. Es lohnt sich also, diese Seite in die Bookmarks
+				aufzunehmen.{" "}
 				<span role="img" aria-label="Zwinkersmiley">
 					😉
 				</span>
 			</p>
-			<p>Bis es soweit ist, hier ein paar Beispiele zur Inspiration:</p>
-			{samples.map((sample) => (
-				<Finding {...sample} key={sample.youTubeId} />
-			))}
+			<p>
+				Bis es soweit ist, hier ein paar Beispiele zur Inspiration:
+				{samples.map((sample) => (
+					<Finding {...sample} key={sample.youTubeId} />
+				))}
+			</p>
 		</div>
 	);
 }
