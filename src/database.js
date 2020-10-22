@@ -3,5 +3,6 @@ export default [
 	{ youTubeId: "iPUmE-tne5U", from: "Yves", title: "Walking On Sunshine" },
 	{ youTubeId: "k6s1-caKRtQ", from: "Yves", title: "The Great Commandment" },
 	{ youTubeId: "IGVZOLV9SPo", from: "Yves", title: "Love Is A Battlefield" },
-	{ youTubeId: "6bDmN0z74M8", from: "Yves", title: "Heartlight" },
+	{ youTubeId: "6bDmN0z74M8", from: "Dennis", title: "Heartlight" },
+	{ youTubeId: "UMPC8QJF6sI", from: "Kersui", title: "Fade To Grey" },
 ];
